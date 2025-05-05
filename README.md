@@ -38,7 +38,7 @@ A **vacuum-sealed or low-pressure chamber** contains a lightly ionized gas (like
 * Software module that:
 
   * Traverses the voxel space in time (frame-based or event-driven).
-  * Computes beam paths to target a voxel (could use lookup tables or ray intersection logic).
+  * Computes beam paths to target a voxel.
   * Controls emitters and steering fields in real time.
 
 #### 5. **Sensor & Feedback System (optional)**
