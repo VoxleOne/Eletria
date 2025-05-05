@@ -1,5 +1,5 @@
 # Eletria
-![Eletria Concept Diagram](https://github.com/VoxLeone/eletria/docs/assets/eletria_set.jpg)
+![Eletria Concept Diagram](docs/assets/eletria_set.jpg)
 
 ---
 
