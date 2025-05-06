@@ -1,4 +1,4 @@
----
+
 # 🎯 Why Two Electron Beams Are Needed to Activate a Voxel
 
 In the Eletria system, visible voxels are created by the **recombination of electrons and ions** within a low-pressure gas chamber. A natural question arises:
@@ -6,8 +6,6 @@ In the Eletria system, visible voxels are created by the **recombination of elec
 > Why do we need **two intersecting electron beams** to activate a voxel in space?
 
 This page explains the reasoning from both a **physical** and **engineering** perspective.
-
----
 
 ## 📍 1. The Problem with a Single Beam
 
