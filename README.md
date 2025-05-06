@@ -48,41 +48,24 @@ A **vacuum-sealed or low-pressure chamber** contains a lightly ionized gas (like
 
 ---
 
-### ✨ Why This Might Work
+## 🔧 **System Workflow**
 
-* **Electron-ion recombination** gives a real, observable light output.
-* **Voxel precision** is software-defined but physically realized.
-* **No need for mechanical parts** — voxels are "written" into the gas volume.
+1. **Initialization**: The SpinStep Engine initializes the 3D voxel grid and determines the coordinates of the voxels to be activated.
 
----
+2. **Electron Beam Targeting**: The engine calculates the paths of electron beams to intersect at the specified voxel locations.
 
-### 🔬 Constraints / Considerations
+3. **Beam Emission**: Electron beam emitters direct beams to the calculated coordinates.
 
-| Factor                       | Notes                                                                            |
-| ---------------------------- | -------------------------------------------------------------------------------- |
-| **Beam Precision**           | Tight control needed for beam steering and focus — like in electron lithography. |
-| **Recombination Efficiency** | Must balance gas density, ionization level, and electron beam energy.            |
-| **Vacuum Chamber**           | Adds complexity, but standard in many lab-scale devices.                         |
-| **Power Requirements**       | Can be high depending on frequency and voxel density.                            |
-| **Safety**                   | Electron beams, ionized gas — needs shielding and proper handling.               |
+4. **Recombination and Emission**: At each intersection point, an electron recombines with an ion, emitting a visible photon and creating a voxel of light.
+
+5. **Voxel Persistence**: The emitted light persists for a brief period, allowing for visual perception of the voxel.
 
 ---
 
-### 🔧 Possible Enhancements
+## ⚠️ **Considerations**
 
-* Add **magnetic lenses** to help with beam focusing.
-* Explore **multi-beam collisions** or **timed electron bursts** for better control.
-* Explorer **ion trap grids** to localize ions at predefined node points.
-
----
-
-## ✅ Conclusion
-
-**Eletria can be conceived as a volumetric display based on electron-ion interactions**, with **SpinStep as its spatial logic/beam-control engine**.
-
-This design:
-
-* Has physical precedent (in labs, fusion diagnostics, plasma devices).
-* Creates a path toward *real, glowing voxels* in a 3D environment.
+* **Beam Precision**: High precision is required to ensure electron beams intersect at the correct locations.
+* **Gas Ionization**: Maintaining the appropriate level of ionization in the gas is crucial for efficient recombination.
+* **Safety**: Proper shielding and safety protocols must be in place to handle electron beams and ionized gases.
 
 ---
