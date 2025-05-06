@@ -1,6 +1,6 @@
 # Fundamental Challenge:
 
-what would prevent the beam pulse from interacting with other possible ions standing on the trajectory before it gets to the precise coordinates?
+What would prevent the beam pulse from interacting with other possible ions standing on the trajectory before it gets to the precise coordinates?
 That's a very important question — one that gets to the core of physical feasibility.
 
 The answer, in short: **there’s no way to fully prevent unintended interactions** between the electron beam and ions along its path. However, there are **ways to reduce or manage** these interactions so they don’t overwhelm your signal at the voxel.
