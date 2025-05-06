@@ -1,4 +1,4 @@
-# 🎯 Beam Pairs: The Fundamental Unit of Voxel Activation
+# 🎯 Beam Pair: The Fundamental Unit of Voxel Activation
 
 In Eletria, voxel activation depends on the precise **intersection of two electron beams**. This requirement leads to the definition of a key architectural concept:
 
