@@ -110,7 +110,3 @@ Future developments will extend this concept toward **adaptive beam-pair grids**
 
 **Next:** [Laser Clearing Strategy →](08_laser_clearing_strategy.md)
 ```
-
----
-
-Would you like me to help add a **visual schematic** showing how multiple Beam Pairs could be arranged in a modular 3D grid system?
