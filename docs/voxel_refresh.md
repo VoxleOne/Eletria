@@ -1,9 +1,8 @@
-
-We're designing a **real-time volumetric display** system where voxel activation must occur **continuously** and **rapidly** to create the perception of a dynamic, persistent 3D image in space. Here's how that concept scales up:
-
 ---
 
 ## 🔄 **Continuous Voxel Refresh via Beam Steering**
+
+We're designing a real-time volumetric display system where voxel activation must occur continuously and rapidly to create the perception of a dynamic, persistent 3D image in space. Here's how that concept scales up:
 
 ### 🔧 Conceptual Model
 
