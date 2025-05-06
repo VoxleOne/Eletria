@@ -3,69 +3,132 @@
 
 ---
 
-## ⚙️ **Eletria Architecture**
+# ⚡️ Eletria
 
-### "Photon Emission by Controlled Electron-Ion Interaction in a Voxel Grid"
+### "Photon Emission by Controlled Electron-Ion Interaction in a Volumetric Grid"
 
----
+**Eletria** is a proof-of-concept system for generating visible, volumetric 3D images — not through screens or projections, but by emitting photons directly into space. It uses *beam pairs* of electrons that intersect precisely inside an ionized medium to activate **lit voxels** — visible points of light suspended in mid-air.
 
-### 🧱 **Core Idea:**
-
-A **vacuum-sealed or low-pressure chamber** contains a lightly ionized gas (like hydrogen or helium). **Directed electron beams** traverse the space to intersect at precise 3D coordinates (nodes), where **local electron-ion recombination** produces **visible photons** — creating "lit voxels" in real 3D space.
+> Imagine a real-time 3D display where each pixel is a floating point of light, activated by physics itself.
 
 ---
 
-### 🧩 System Components
+## 🧠 Core Concept
 
-#### 1. **Voxel Grid (3D Node Map)**
+At the heart of Eletria is a **controlled recombination event**:
 
-* A logical 3D matrix defining where "voxels" may be activated.
-* Physically, this is an **empty volume** — the nodes exist only as targetable coordinates in software.
-
-#### 2. **Ionized Medium**
-
-* Light ionization of a gas like **H₂, He, or Ne** — selected for visible emission lines.
-* Pressure and temperature tuned for optimal recombination visibility and safety.
-
-#### 3. **Electron Beam Emitters (x2 or more)**
-
-* Compact **electron guns** or field emitters aligned on different axes.
-* Beam steering via **electrostatic or magnetic fields**.
-* Aimed to cross paths **only at desired node locations**.
-
-#### 4. **SpinStep Engine - [[Link]](https://github.com/VoxLeone/SpinStep)**
-
-* Software module that:
-
-  * Traverses the voxel space in time (frame-based or event-driven).
-  * Computes beam paths to target a voxel.
-  * Controls emitters and steering fields in real time.
-
-#### 5. **Sensor & Feedback System (optional)**
-
-* Optical or electron-density sensors could track voxel activation fidelity.
-* Feedback loops adjust beam power or alignment dynamically.
+- A **vacuum-sealed or low-pressure chamber** is filled with a lightly ionized gas (e.g., hydrogen, helium, neon).
+- **Electron beam pairs** are directed to intersect at precise spatial coordinates — the logical voxel nodes.
+- Where the beams intersect and meet ion density thresholds, **visible photons** are emitted via **electron-ion recombination**.
+- The result: a sharp, localized point of light — a **voxel** — visible without any screens or lenses.
 
 ---
 
-## 🔧 **System Workflow**
+## 🧩 Key System Components
 
-1. **Initialization**: The SpinStep Engine initializes the 3D voxel grid and determines the coordinates of the voxels to be activated.
+### 1. 🧱 Voxel Grid (Logical Node Space)
+- A 3D coordinate system where voxels are defined in software.
+- Physically, the space is empty — only the beam engine determines where a voxel lights up.
 
-2. **Electron Beam Targeting**: The engine calculates the paths of electron beams to intersect at the specified voxel locations.
+### 2. 🌫️ Ionized Medium
+- Lightly ionized noble or diatomic gases (H₂, He, Ne) optimized for safe, visible photon emission.
+- Maintained at controlled pressure and temperature for optimal performance.
 
-3. **Beam Emission**: Electron beam emitters direct beams to the calculated coordinates.
+### 3. ⚛️ Beam Pairs (xN)
+- Each **Beam Pair** consists of two electron beams aimed to intersect at a specific voxel.
+- Electron beams are steered by electromagnetic or electrostatic gimbals (quaternion-driven).
+- Multiple pairs enable **parallel voxel activation** and higher image resolution.
 
-4. **Recombination and Emission**: At each intersection point, an electron recombines with an ion, emitting a visible photon and creating a voxel of light.
+### 4. 🧠 SpinStep Engine [🔗 GitHub →](https://github.com/VoxLeone/SpinStep)
+- Controls the traversal of the voxel grid.
+- Computes and drives emitter trajectories in real-time.
+- Coordinates timing, firing, and beam steering logic.
 
-5. **Voxel Persistence**: The emitted light persists for a brief period, allowing for visual perception of the voxel.
+### 5. 🔬 Laser Clearing System (Optional, Advanced)
+- **Infrared pre-pulses** clear ions along the beam path just before each electron pulse.
+- Prevents premature photon emission and improves voxel sharpness.
+
+### 6. 📷 Sensor & Feedback Subsystem (Future Work)
+- Visual or particle-based sensors monitor voxel accuracy.
+- Feedback loops dynamically adjust emitter calibration, beam power, or gas conditions.
 
 ---
 
-## ⚠️ **Considerations**
+## 🔄 System Workflow
 
-* **Beam Precision**: High precision is required to ensure electron beams intersect at the correct locations.
-* **Gas Ionization**: Maintaining the appropriate level of ionization in the gas is crucial for efficient recombination.
-* **Safety**: Proper shielding and safety protocols must be in place to handle electron beams and ionized gases.
+```text
+1. Initialize
+   • SpinStep maps target voxel coordinates in the logical 3D grid.
+
+2. Beam Path Calculation
+   • For each voxel, SpinStep computes the trajectory of a Beam Pair.
+
+3. IR Pulse (optional)
+   • A laser pre-clears the beam path to suppress unintended interactions.
+
+4. Beam Firing
+   • Two electron pulses are emitted to intersect at the target voxel.
+
+5. Photon Emission
+   • Local electron-ion recombination emits a visible photon → voxel lit.
+
+6. Frame Completion
+   • Repeat across all voxel targets for each frame refresh cycle.
+````
+
+---
+
+## 📈 Why Use Beam Pairs?
+
+Single electron beams can't localize energy precisely in 3D space. Instead, **Beam Pairs**:
+
+* Only produce recombination events at their point of intersection.
+* Enable **logical AND-style targeting**: high spatial and energy specificity.
+* Scale naturally: N pairs → N parallel voxels → better performance.
+
+---
+
+## ⚠️ Engineering Considerations
+
+| Challenge       | Approach                                       |
+| --------------- | ---------------------------------------------- |
+| Beam Precision  | Quaternion-based steering, feedback loops      |
+| Ion Management  | Gas mix tuning, optional IR laser clearing     |
+| Synchronization | Real-time coordination via SpinStep            |
+| Safety          | Beam shielding, vacuum safety, interlocks      |
+| Refresh Rate    | Multithreaded beam pair control & multiplexing |
+
+---
+
+## 📚 Explore the Project
+
+* 📘 [Motivation & Vision](docs/01_motivation.md)
+* 🧠 [Physics Overview](docs/03_physics.md)
+* 🧩 [System Architecture](docs/04_architecture.md)
+* ⚡ [Why Two Beams?](docs/07_why_two_beams.md)
+* 🔦 [IR Laser Clearing Strategy](docs/08_laser_clearing_strategy.md)
+* 🔁 [Beam Pairs & Scaling](docs/09_beam_pairs.md)
+
+> *For full documentation, see the `docs/` directory.*
+
+---
+
+## 🧪 Status
+
+**Prototype phase.** Core ideas under development.
+Currently designing:
+
+* Beam steering and control protocols
+* Gas chamber specs
+* Timing & triggering logic
+* Documentation and modeling support
+
+Contributions, discussion, and simulation models are welcome!
+
+---
+
+## 📜 License
+
+MIT License © [VoxLeone](https://github.com/VoxLeone)
 
 ---
