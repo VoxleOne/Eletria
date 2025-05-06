@@ -3,7 +3,7 @@
 What would prevent the beam pulse from interacting with other possible ions standing on the trajectory before it gets to the precise coordinates?
 That's a very important question — one that gets to the core of physical feasibility.
 
-The answer, in short: **there’s no way to fully prevent unintended interactions** between the electron beam and ions along its path. However, there are **ways to reduce or manage** these interactions so they don’t overwhelm your signal at the voxel.
+The answer, in short: **there’s no way to fully prevent unintended interactions** between the electron beam and ions along its path. However, there are **ways to reduce or manage** these interactions so they don’t overwhelm the signal at the voxel.
 
 ---
 
@@ -25,7 +25,7 @@ This is especially problematic because you're trying to:
 
 ## 🔧 Mitigation Strategies
 
-Here are practical and theoretical methods to reduce unintended interactions:
+Here are a few practical and theoretical methods to reduce unintended interactions:
 
 ---
 
