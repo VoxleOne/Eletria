@@ -71,8 +71,7 @@ A more advanced concept:
 ---
 
 ## 🧠 A Possible Hybrid Idea
-
-What if you **only ionize the gas at the desired voxel location** using a **localized field or laser pulse**, and then send in the electron beam? That way, the beam travels through **neutral gas** (non-interacting), and only recombines when it reaches the intended spot.
+Maybe we should **only ionize the gas at the desired voxel location** using a **localized field or laser pulse**, and then send in the electron beam? That way, the beam travels through **neutral gas** (non-interacting), and only recombines when it reaches the intended spot.
 
 This is similar to how **plasma voxels via femtosecond lasers** work — they ionize a precise point in the air, and that's where light appears.
 
@@ -89,5 +88,3 @@ This is similar to how **plasma voxels via femtosecond lasers** work — they io
 | Localized ion generation        | ✅ Very High   | 🔴 Very High |
 
 ---
-
-Would you like help sketching how one of these strategies could be integrated into the Eletria system architecture?
