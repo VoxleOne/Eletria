@@ -41,15 +41,9 @@ To reliably trigger this emission:
 * If each beam is tuned to deliver \~**half the required flux or excitation probability**, then **only at their crossing point** does the necessary condition arise.
 ---
 
-Fantastic follow-up — this point is **foundational to your entire voxel activation mechanism**, and yes, there are **theoretical principles** we can lean on, even if no single equation gives a complete plug-and-play answer.
+## ⚖️ **Nonlinear Interaction Thresholds**
 
-Let’s break it down rigorously:
-
----
-
-## ⚖️ What You’re Describing: **Nonlinear Interaction Thresholds**
-
-You're essentially relying on a **nonlinear threshold effect**:
+We're essentially relying on a **nonlinear threshold effect**:
 
 > The voxel only emits light when the **local interaction rate** exceeds a critical threshold, and this happens **only where both beams overlap**.
 
@@ -78,7 +72,7 @@ This is **multiplicative**, not additive — so you can think of it as a **logic
 
 ---
 
-## 🧪 Applying It to Your Two-Beam Model
+## 🧪 Applying It to Our Two-Beam Model
 
 Imagine both beams are focused on a point $\vec{v}$, and that each provides a spatially localized **electron density distribution**:
 
@@ -93,13 +87,13 @@ $$
 
 But this assumes **linear superposition** of electron densities — a good first approximation **if the beams are not interfering** quantum-mechanically.
 
-If you instead model it more conservatively — especially when using short pulses or tightly focused beams — then **only where both beams exist** does the **effective local density spike**:
+If we instead model it more conservatively — especially when using short pulses or tightly focused beams — then **only where both beams exist** does the **effective local density spike**:
 
 $$
 R(\vec{r}) \sim \alpha(T) \cdot n_{eA}(\vec{r}) \cdot n_{eB}(\vec{r}) \cdot n_i
 $$
 
-This product-based form is more in line with **nonlinear activation thresholds**, as used in:
+This product-based form is more in line with **NIT's**, as used in:
 
 * Two-photon excitation microscopy
 * Cross-beam energy deposition
@@ -120,7 +114,7 @@ $$
 P_{\text{2photon}} \propto I_1(\vec{r}) \cdot I_2(\vec{r})
 $$
 
-You’re building a **particle-based analog**:
+In fact, w’re building a **particle-based analog**:
 
 > Emission occurs **only where electron flux A × electron flux B × ion density** is high enough.
 
