@@ -127,4 +127,3 @@ By requiring two beams to intersect at a voxel, Eletria creates a **physically c
 **Next:** [System Architecture →](04_architecture.md)
 ```
 
----
