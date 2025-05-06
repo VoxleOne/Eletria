@@ -16,9 +16,9 @@ We're designing a real-time volumetric display system where voxel activation mus
 
 ### 🎯 Beam Steering Mechanism
 
-You’re absolutely right: to scan across thousands of voxels in 3D space:
+To scan across thousands of voxels in 3D space:
 
-* **Electron beam "nozzles"** (emitters) are mounted on a **gimbal-like mechanism**, capable of steering the beam along arbitrary orientations.
+* **Electron beam emiters** (emitters) are mounted on a **gimbal-like mechanism**, capable of steering the beam along arbitrary orientations.
 * Using **quaternion math** (which SpinStep already supports), the emitters can smoothly rotate in 3D without gimbal lock or discontinuities.
 * **Gimbal + fine deflection coils** (electromagnetic beam steering) = coarse + fine beam control.
 
@@ -44,7 +44,7 @@ This is **well within the realm of possibility**, especially with modern high-sp
 
 ---
 
-## 🔧 Updated System Diagram (Conceptually)
+## 🔧 System Diagram (Conceptually)
 
 ```
                +-----------------------------+
