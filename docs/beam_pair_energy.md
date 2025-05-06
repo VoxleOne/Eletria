@@ -47,5 +47,3 @@ To reliably trigger this emission:
 * ✔️ **Yes**, each beam contributes part of the **energy density** required for activation.
 * ✔️ The voxel **only lights up** when both beams overlap in space and time.
 * ✔️ The **emitted color** depends on interaction physics — primarily the **type of ionized gas** and **recombination energy**.
-
-Would you like to go deeper into how to **engineer color-selective voxels** using different gases or beam modulation strategies?
