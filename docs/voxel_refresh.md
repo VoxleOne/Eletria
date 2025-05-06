@@ -4,7 +4,7 @@ We're designing a **real-time volumetric display** system where voxel activation
 
 ## 🔄 **Continuous Voxel Refresh via Beam Steering**
 
-### 🔧 Updated Conceptual Model
+### 🔧 Conceptual Model
 
 * The system **scans** voxels at **high frequency**, refreshing each visible point fast enough for **persistence of vision** (at least \~24–60 Hz per voxel, depending on display density).
 * **Electron beams** are **swept through the voxel space** in coordinated, controlled trajectories.
