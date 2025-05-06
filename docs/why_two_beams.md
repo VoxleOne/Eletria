@@ -107,6 +107,7 @@ In advanced designs, SpinStep could:
 
 ---
 
+
 ## ✅ Summary: Why Two Beams?
 
 | Factor                     | Single Beam | Dual Beams |
