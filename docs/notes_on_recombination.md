@@ -1,5 +1,3 @@
----
-
 ## ⚛️ Notes on Recombination Radiation.
 
 **Recombination radiation** occurs when a **free electron recombines with a positively charged ion** (typically an ionized atom), and the energy released in that process is emitted as a **photon**. The **wavelength** (and thus color) of that photon depends on the energy levels involved.
