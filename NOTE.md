@@ -1,6 +1,6 @@
 ### ⚠️ Disclaimer
 
-**Important Note:** This project explores an experimental concept based on electron beam pair interactions. Subsequent analysis has revealed that some underlying assumptions may not hold, casting doubt on the viability of this specific approach.
+**Important Note:** This project explores an experimental concept based on electron beam pair interactions. Subsequent analysis has revealed that some underlying assumptions — particularly those concerning beam intersection — may not hold, casting doubt on the viability of this specific approach.
 
 Despite this, the repository remains public for the following reasons:
 
