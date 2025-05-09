@@ -1,9 +1,18 @@
-# Note: 
+---
 
-Some assumptions regarding the validity of the electron beam pair method have proven to be incorrect, which places this solution on shaky ground. Nevertheless, I believe it is worthwhile to keep this project publicly available for several reasons:
+### ⚠️ Disclaimer
 
-a) it relies on the advanced software we are developing for traversing three-dimensional graphs — the Spinstep library — which goes hand in hand with this project;
-b) it allows other developers, hackers, contributors, and the general public to engage with both initiatives;
-c) it supports an alternative pathway to the patent system for sharing this idea.
+**Important Note:** This project explores an experimental concept based on electron beam pair interactions. Subsequent analysis has revealed that some underlying assumptions may not hold, casting doubt on the viability of this specific approach.
 
-We are currently working on a variant of this concept that combines lasers with electron beams. This approach appears to be more robust and will be published soon.
+Despite this, the repository remains public for the following reasons:
+
+* It serves as a working example of our advanced graph traversal engine, **Spinstep**, which was developed in tandem with this project.
+* It offers a resource for developers, researchers, and curious minds to engage with both the conceptual framework and the software.
+* It promotes open sharing of ideas as an alternative to proprietary or patent-restricted models.
+
+We are actively developing a revised implementation that incorporates laser-based components alongside electron beams. This new direction appears more promising and will be published soon.
+
+---
+
+Would you like to tag this section with something like `status: deprecated` or `research in progress` as well?
+
