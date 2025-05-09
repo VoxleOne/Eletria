@@ -2,6 +2,8 @@
 
 ### "Photon Emission by Controlled Electron-Ion Interaction in a Volumetric Grid"
 
+### See [NOTE.md](NOTE.md)
+
 **Eletria** is a proof-of-concept system for generating volumetric (3D) images — not through screens or projections, but by emitting photons directly into space. It uses *beam pairs* of electrons that intersect precisely inside an ionized medium to activate **lit voxels** — visible points of light suspended in mid-air.
 
 ![Eletria Concept Diagram](docs/assets/eletria_set.jpg)
