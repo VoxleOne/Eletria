@@ -1,5 +1,3 @@
----
-
 ### ⚠️ Disclaimer
 
 **Important Note:** This project explores an experimental concept based on electron beam pair interactions. Subsequent analysis has revealed that some underlying assumptions may not hold, casting doubt on the viability of this specific approach.
@@ -11,8 +9,3 @@ Despite this, the repository remains public for the following reasons:
 * It promotes open sharing of ideas as an alternative to proprietary or patent-restricted models.
 
 We are actively developing a revised implementation that incorporates laser-based components alongside electron beams. This new direction appears more promising and will be published soon.
-
----
-
-Would you like to tag this section with something like `status: deprecated` or `research in progress` as well?
-
