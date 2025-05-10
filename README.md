@@ -101,12 +101,7 @@ Single electron beams can't localize energy precisely in 3D space. Instead, **Be
 
 ## 📚 Explore the Project
 
-* 📘 [Motivation & Vision](docs/01_motivation.md)
-* 🧠 [Physics Overview](docs/03_physics.md)
-* 🧩 [System Architecture](docs/04_architecture.md)
-* ⚡ [Why Two Beams?](docs/07_why_two_beams.md)
-* 🔦 [IR Laser Clearing Strategy](docs/08_laser_clearing_strategy.md)
-* 🔁 [Beam Pairs & Scaling](docs/09_beam_pairs.md)
+### * 📘 [Read the docs](docs/)
 
 > *For full documentation, see the `docs/` directory.*
 
