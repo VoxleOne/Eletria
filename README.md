@@ -123,6 +123,6 @@ Contributions, discussion, and simulation models are welcome!
 
 ## 📜 License
 
-MIT License © [VoxLeone](https://github.com/VoxLeone)
+MIT License © [VoxLeone](https://github.com/VoxleOne)
 
 ---
