@@ -23,37 +23,37 @@ At the heart of Eletria is a **controlled recombination event**:
 
 ---
 
-## 🧩 Key System Components
+## Key System Components
 
-### 1. 🧱 Voxel Grid (Logical Node Space)
+### 1. Voxel Grid (Logical Node Space)
 - A 3D coordinate system where voxels are defined in software.
 - Physically, the space is empty — only the beam engine determines where a voxel lights up.
 
-### 2. 🌫️ Ionized Medium
+### 2. Ionized Medium
 - Lightly ionized noble or diatomic gases (H₂, He, Ne) optimized for safe, visible photon emission.
 - Maintained at controlled pressure and temperature for optimal performance.
 
-### 3. ⚛️ Beam Pairs (xN)
+### 3. Beam Pairs (xN)
 - Each **Beam Pair** consists of two electron beams aimed to intersect at a specific voxel.
 - Electron beams are steered by electromagnetic or electrostatic gimbals (quaternion-driven).
 - Multiple pairs enable **parallel voxel activation** and higher image resolution.
 
-### 4. 🧠 SpinStep Engine [🔗 GitHub →](https://github.com/VoxLeone/SpinStep)
+### 4. SpinStep Engine [🔗 GitHub →](https://github.com/VoxLeone/SpinStep)
 - Controls the traversal of the voxel grid.
 - Computes and drives emitter trajectories in real-time.
 - Coordinates timing, firing, and beam steering logic.
 
-### 5. 🔬 Laser Clearing System (Optional, Advanced)
+### 5. Laser Clearing System (Optional, Advanced)
 - **Infrared pre-pulses** clear ions along the beam path just before each electron pulse.
 - Prevents premature photon emission and improves voxel sharpness.
 
-### 6. 📷 Sensor & Feedback Subsystem (Future Work)
+### 6. Sensor & Feedback Subsystem (Future Work)
 - Visual or particle-based sensors monitor voxel accuracy.
 - Feedback loops dynamically adjust emitter calibration, beam power, or gas conditions.
 
 ---
 
-## 🔄 System Workflow
+## System Workflow
 
 ```text
 1. Initialize
@@ -77,7 +77,7 @@ At the heart of Eletria is a **controlled recombination event**:
 
 ---
 
-## 📈 Why Use Beam Pairs?
+## Why Use Beam Pairs?
 
 Single electron beams can't localize energy precisely in 3D space. Instead, **Beam Pairs**:
 
@@ -99,15 +99,15 @@ Single electron beams can't localize energy precisely in 3D space. Instead, **Be
 
 ---
 
-## 📚 Explore the Project
+## Explore the Project
 
-### * 📘 [Read the docs](docs/)
+### * [Read the docs](docs/)
 
 > *For full documentation, see the `docs/` directory.*
 
 ---
 
-## 🧪 Status
+## Status
 
 **Prototype phase.** Core ideas under development.
 Currently designing:
@@ -123,6 +123,6 @@ Contributions, discussion, and simulation models are welcome!
 
 ## 📜 License
 
-MIT License © [VoxLeone](https://github.com/VoxleOne)
+MIT License © [VoxleOne](https://github.com/VoxleOne)
 
 ---
