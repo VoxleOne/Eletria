@@ -8,6 +8,12 @@
 
 ![Eletria Concept Diagram](docs/assets/eletria_set.jpg)
 
+<p float="left">
+  <img src="docs/assets/eletria_set.jpg" width="200" />
+  <img src="docs/assets/eletria_set2.jpg" width="200" />
+  <img src="docs/assets/eletria_set3.jpg" width="200" />
+</p>
+
 > Imagine a real-time 3D display where each pixel is a floating point of light, activated by physics itself.
 
 ---
