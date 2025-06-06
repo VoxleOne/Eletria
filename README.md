@@ -12,7 +12,7 @@
 
 ---
 
-## 🧠 Core Concept
+## Core Concept
 
 At the heart of Eletria is a **controlled recombination event**:
 
