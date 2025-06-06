@@ -116,7 +116,7 @@ Single electron beams can't localize energy precisely in 3D space. Instead, **Be
 **Prototype phase.** Core ideas under development.
 Currently designing:
 
-* Beam steering and control protocols
+* [Beam steering and control protocols](https://github.com/VoxleOne/SpinStep/)
 * Gas chamber specs
 * Timing & triggering logic
 * Documentation and modeling support
