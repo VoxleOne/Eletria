@@ -9,9 +9,9 @@
 ![Eletria Concept Diagram](docs/assets/eletria_set.jpg)
 
 <p float="left">
-  <img src="docs/assets/eletria_set1.jpg" width="250" />
-  <img src="docs/assets/eletria_set2.jpg" width="250" />
-  <img src="docs/assets/eletria_set3.jpg" width="250" />
+  <img src="docs/assets/eletria-set1.jpg" width="250" />
+  <img src="docs/assets/eletria-set2.jpg" width="250" />
+  <img src="docs/assets/eletria-set3.jpg" width="250" />
 </p>
 
 > Imagine a real-time 3D display where each pixel is a floating point of light, activated by physics itself.
