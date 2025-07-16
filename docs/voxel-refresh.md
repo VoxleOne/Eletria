@@ -1,8 +1,8 @@
-## 🔄 **Continuous Voxel Refresh via Beam Steering**
+## **Continuous Voxel Refresh via Beam Steering**
 
 We're designing a real-time volumetric display system where voxel activation must occur continuously and rapidly to create the perception of a dynamic, persistent 3D image in space. Here's how that concept scales up:
 
-### 🔧 Conceptual Model
+### Conceptual Model
 
 * The system **scans** voxels at **high frequency**, refreshing each visible point fast enough for **persistence of vision** (at least \~24–60 Hz per voxel, depending on display density).
 * **Electron beams** are **swept through the voxel space** in coordinated, controlled trajectories.
@@ -14,7 +14,7 @@ We're designing a real-time volumetric display system where voxel activation mus
 
 ---
 
-### 🎯 Beam Steering Mechanism
+### Beam Steering Mechanism
 
 To scan across thousands of voxels in 3D space:
 
@@ -24,7 +24,7 @@ To scan across thousands of voxels in 3D space:
 
 ---
 
-### 🔁 Voxel Activation Loop (Per Frame)
+### Voxel Activation Loop (Per Frame)
 
 1. **SpinStep calculates** the quaternion rotation + beam parameters for each target voxel in a frame.
 2. **Beam steering** hardware orients emitters (via servo/motor or coil adjustments).
@@ -35,7 +35,7 @@ This continues for **tens of thousands** of voxels per second — not unlike how
 
 ---
 
-### 🔄 Refresh Rate and Perceived Stability
+### Refresh Rate and Perceived Stability
 
 * **Perception requires stability**: Each voxel must be re-lit before its glow fades (which is typically <1ms for most recombination emissions).
 * Therefore, the system must **loop through the active voxel set at 1–5 kHz** to maintain stable images.
@@ -44,7 +44,7 @@ This is **well within the realm of possibility**, especially with modern high-sp
 
 ---
 
-## 🔧 System Diagram (Conceptually)
+## System Diagram (Conceptually)
 
 ```
                +-----------------------------+
