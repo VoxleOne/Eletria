@@ -7,7 +7,7 @@ The answer, in short: **there’s no way to fully prevent unintended interaction
 
 ---
 
-## ⚠️ Why This Happens
+## Why This Happens
 
 When an **electron beam travels through an ionized gas**, it's not in a clean vacuum. There are **randomly distributed ions** (positive charges) throughout the medium. Electrons in the beam may:
 
@@ -23,7 +23,7 @@ This is especially problematic because you're trying to:
 
 ---
 
-## 🔧 Mitigation Strategies
+## Mitigation Strategies
 
 Here are a few practical and theoretical methods to reduce unintended interactions:
 
@@ -34,7 +34,7 @@ Here are a few practical and theoretical methods to reduce unintended interactio
 * Use a **very low ionization fraction** — just enough ions to make recombination possible, but not so many that beams constantly collide along the way.
 * Keep most of the gas **neutral**. You want a **mostly transparent medium** with just a sparse ion population.
 
-> ⚠️ Trade-off: Too few ions = too little light. Too many = noisy voxel activation.
+> Trade-off: Too few ions = too little light. Too many = noisy voxel activation.
 
 ---
 
@@ -70,14 +70,14 @@ A more advanced concept:
 
 ---
 
-## 🧠 A Possible Hybrid Idea
+## A Possible Hybrid Idea
 Maybe we should **only ionize the gas at the desired voxel location** using a **localized field or laser pulse**, and then send in the electron beam? That way, the beam travels through **neutral gas** (non-interacting), and only recombines when it reaches the intended spot.
 
 This is similar to how **plasma voxels via femtosecond lasers** work — they ionize a precise point in the air, and that's where light appears.
 
 ---
 
-## 🧩 Summary
+## Summary
 
 | Strategy                        | Effectiveness | Complexity   |
 | ------------------------------- | ------------- | ------------ |
