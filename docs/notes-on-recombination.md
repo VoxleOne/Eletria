@@ -1,10 +1,10 @@
-## ⚛️ Notes on Recombination Radiation.
+## Notes on Recombination Radiation.
 
 **Recombination radiation** occurs when a **free electron recombines with a positively charged ion** (typically an ionized atom), and the energy released in that process is emitted as a **photon**. The **wavelength** (and thus color) of that photon depends on the energy levels involved.
 
 ---
 
-### 📌 Process Overview
+### Process Overview
 
 1. **Ionization**: An atom (e.g., hydrogen, helium) loses an electron, becoming a positive ion.
 2. **Recombination**: A free electron later reattaches to this ion.
@@ -13,7 +13,7 @@
 
 ---
 
-### 🌈 Example: Hydrogen Recombination (Balmer Series)
+### Example: Hydrogen Recombination (Balmer Series)
 
 Hydrogen is a simple and commonly studied example:
 
@@ -27,23 +27,23 @@ These visible emissions are often seen in nebulae or plasma discharges.
 
 ---
 
-### ⚠️ Key Point: an **ionized medium**, not free-space collisions
+### Key Point: an **ionized medium**, not free-space collisions
 
 * We need **ions** — a gas or plasma environment with **positive ions** for the electrons to recombine with.
 * The **medium** matters: Hydrogen, Helium, and low-pressure gases are common in experiments or plasma globes.
 
 ---
 
-## 🧪 Can It Work in a Device?
+## Can It Work in a Device?
 
-### 🟢 **Theoretically Yes** — but not in pure vacuum
+### **Theoretically Yes** — but not in pure vacuum
 
 * The device needs to maintain a **low-density plasma** or **ionized gas chamber**, in order to trigger recombination radiation with **directed electron beams**.
 * Carefully choosing the gas (hydrogen or helium) allows targeting emissions in the **visible spectrum**.
 
 ---
 
-## 🔧 Summary: How Recombination Radiation Could Be Used
+## Summary: How Recombination Radiation Could Be Used
 
 | Requirement                                   | Notes                                       |
 | --------------------------------------------- | ------------------------------------------- |
@@ -54,7 +54,7 @@ These visible emissions are often seen in nebulae or plasma discharges.
 
 ---
 
-## ✅ Where the Phenomenon Occurs
+## Where the Phenomenon Occurs
 
 * **Gas-discharge lamps** (like neon signs or plasma globes)
 * **Auroras** (solar wind electrons recombining in the upper atmosphere)
