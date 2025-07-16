@@ -1,10 +1,10 @@
-# 🔦 Laser-Based Ion Clearing Strategy
+# Laser-Based Ion Clearing Strategy
 
 To ensure sharp, high-contrast voxel activation in the Eletria system, we propose a method for **pre-clearing the electron beam path** using an **infrared (IR) laser pulse**. This prevents unwanted recombination events along the trajectory of the electron beam before it reaches the intended voxel.
 
 ---
 
-## 🎯 Objective
+## Objective
 
 Enable the electron beam to interact **only at the target voxel**, by **removing or displacing ions** along its travel path, just before it arrives. This improves:
 
@@ -15,7 +15,7 @@ Enable the electron beam to interact **only at the target voxel**, by **removing
 
 ---
 
-## 🧠 Core Idea
+## Core Idea
 
 Each electron beam is preceded by a **short, high-intensity infrared laser pulse** that travels the **same trajectory** and:
 
@@ -23,7 +23,7 @@ Each electron beam is preceded by a **short, high-intensity infrared laser pulse
 - Clears a **non-reactive corridor** for the electron beam,
 - Allows recombination **only** where beams intersect (i.e. at the voxel).
 
-### ⚙️ Timing Sequence
+### Timing Sequence
 
 ```text
 [ IR Pulse ] ──────────► Clears ion path
@@ -35,7 +35,7 @@ Timing is controlled by the **SpinStep engine** and must be precise within **nan
 
 ---
 
-## 🧪 Mechanisms of Ion Clearing
+## Mechanisms of Ion Clearing
 
 Several possible physical mechanisms can contribute to this effect:
 
@@ -57,7 +57,7 @@ Several possible physical mechanisms can contribute to this effect:
 
 ---
 
-## 🧮 Interaction Model
+## Interaction Model
 
 Let:
 
@@ -82,7 +82,7 @@ Thus:
 
 ---
 
-## ✅ Benefits
+## Benefits
 
 | Advantage                  | Description                                       |
 | -------------------------- | ------------------------------------------------- |
@@ -93,7 +93,7 @@ Thus:
 
 ---
 
-## ⚠️ Implementation Considerations
+## Implementation Considerations
 
 * **Laser safety** and precision optics are required.
 * **Timing control** must be nanosecond-accurate.
@@ -102,7 +102,7 @@ Thus:
 
 ---
 
-## 🧠 Future Work
+## Future Work
 
 * Simulate ion-clearing effectiveness in various gases (e.g., neon, argon, helium).
 * Develop timing architecture with SpinStep for pulsed firing logic.
