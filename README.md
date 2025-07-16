@@ -6,7 +6,7 @@
 
 **Eletria** is a conceptual system for generating volumetric (3D) images — not through screens or projections, but by emitting photons directly into space. It uses *beam pairs* of electrons that intersect precisely inside an ionized medium to activate **lit voxels** — visible points of light suspended in mid-air.
 
-<p float="left">
+<p float="center">
   <img src="docs/assets/eletria-set1.jpg" width="300" />
   <img src="docs/assets/eletria-set2.jpg" width="300" />
   <img src="docs/assets/eletria-set3.jpg" width="300" />
