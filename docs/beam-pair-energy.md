@@ -1,4 +1,4 @@
-## 🎯 Each Beam Contributes Part of the Energy
+## Each Beam Contributes Part of the Energy
 
 The **intersection point** of two beams becomes a **local energy concentration**. Each beam contributes a share of the necessary conditions for a photon emission event (e.g., via recombination, excitation, or collision-induced emission):
 
@@ -10,7 +10,7 @@ So the voxel “lights up” **only** where their **combined energy density** ex
 
 ---
 
-## 🌈 Wavelength (Color) Depends on Interaction Energy
+## Wavelength (Color) Depends on Interaction Energy
 
 Yes — the **color of the emitted photon** depends on:
 
@@ -27,7 +27,7 @@ In either case, the **intersection intensity (e.g., keV/cm²)** must be high eno
 
 ---
 
-## 🧠 Simplified Model
+## Simplified Model
 
 Let’s say a certain voxel requires a **recombination event** that emits green light (wavelength ≈ 550 nm). The corresponding photon energy is:
 
@@ -41,7 +41,7 @@ To reliably trigger this emission:
 * If each beam is tuned to deliver \~**half the required flux or excitation probability**, then **only at their crossing point** does the necessary condition arise.
 ---
 
-## ⚖️ **Nonlinear Interaction Thresholds**
+## **Nonlinear Interaction Thresholds**
 
 We're essentially relying on a **nonlinear threshold effect**:
 
@@ -51,7 +51,7 @@ This is common in high-energy physics, nonlinear optics, and plasma physics.
 
 ---
 
-## ⚛️ Recombination Rate Depends on Product of Densities
+## Recombination Rate Depends on Product of Densities
 
 A key relationship from **plasma physics** is the **recombination rate equation**:
 
@@ -72,7 +72,7 @@ This is **multiplicative**, not additive — so you can think of it as a **logic
 
 ---
 
-## 🧪 Applying It to Our Two-Beam Model
+## Applying It to Our Two-Beam Model
 
 Imagine both beams are focused on a point $\vec{v}$, and that each provides a spatially localized **electron density distribution**:
 
@@ -102,7 +102,7 @@ This product-based form is more in line with **NIT's**, as used in:
 
 ---
 
-## 🔬 Reference Analogy: Two-Photon Absorption
+## Reference Analogy: Two-Photon Absorption
 
 In **nonlinear optics**, something very similar happens:
 
@@ -120,7 +120,7 @@ In fact, w’re building a **particle-based analog**:
 
 ---
 
-## ✅ Equation
+## Equation
 
 > **The local visible-light emission rate** at a voxel $\vec{r}$ is approximated by:
 
@@ -137,7 +137,7 @@ $$
 
 ---
 
-## ✅ Summary
+## Summary
 
 * ✔️ Each beam contributes part of the **energy density** required for activation.
 * ✔️ The voxel **only lights up** when both beams overlap in space and time.
