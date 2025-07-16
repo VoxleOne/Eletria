@@ -1,5 +1,4 @@
-
-# 🎯 Why Two Electron Beams Are Needed to Activate a Voxel
+# Why Two Electron Beams Are Needed to Activate a Voxel
 
 In the Eletria system, visible voxels are created by the **recombination of electrons and ions** within a low-pressure gas chamber. A natural question arises:
 
@@ -7,7 +6,7 @@ In the Eletria system, visible voxels are created by the **recombination of elec
 
 This page explains the reasoning from both a **physical** and **engineering** perspective.
 
-## 📍 1. The Problem with a Single Beam
+## 1. The Problem with a Single Beam
 
 An electron beam traveling through an ionized gas will **interact with ions along its entire path** — not just at a specific point. That means:
 
@@ -15,7 +14,7 @@ An electron beam traveling through an ionized gas will **interact with ions alon
 - This creates a **line of unintended emissions**, not a single glowing voxel.
 - Precision is lost — you cannot uniquely target one point in 3D space.
 
-### 🔬 Mathematical View
+### Mathematical View
 
 Let’s define:
 
@@ -34,14 +33,14 @@ Where:
 
 ---
 
-## ✨ 2. Beam Intersection: Localizing Recombination
+## 2. Beam Intersection: Localizing Recombination
 
 By crossing **two focused electron beams** at a desired voxel coordinate \( \vec{v} \), we concentrate electron density:
 
 - Both beams have high \( \rho_e \) only where they **intersect**.
 - This makes \( P(\vec{r}) \) strongly peaked at \( \vec{v} \) — the voxel point.
 
-### 📐 Geometry
+### Geometry
 
 Let two electron beams follow paths:
 
@@ -58,7 +57,7 @@ The **intersection of two beams** defines a unique 3D coordinate, and only there
 
 ---
 
-## 🎯 3. Maximizing Recombination Efficiency
+## 3. Maximizing Recombination Efficiency
 
 Recombination events that emit **visible photons** require:
 
@@ -81,7 +80,7 @@ Outside the voxel, \( \rho_{eA} \cdot \rho_{eB} \approx 0 \), and no light is em
 
 ---
 
-## 🚫 4. Avoiding Background Glow
+## 4. Avoiding Background Glow
 
 If a single beam were used, unintended recombination along its path would cause:
 
@@ -97,7 +96,7 @@ Using **beam intersections**, Eletria ensures:
 
 ---
 
-## 🧠 5. Optional: Pulse Timing & Beam Modulation
+## 5. Optional: Pulse Timing & Beam Modulation
 
 In advanced designs, SpinStep could:
 
@@ -108,7 +107,7 @@ In advanced designs, SpinStep could:
 ---
 
 
-## ✅ Summary: Why Two Beams?
+## Summary: Why Two Beams?
 
 | Factor                     | Single Beam | Dual Beams |
 |----------------------------|-------------|------------|
